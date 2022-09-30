@@ -1,0 +1,103 @@
+.fondo {
+  padding: 1.5em;
+  background: linear-gradient(to top, transparent, rgba(0, 0, 0, 0.5)),
+    url("images/hawaii.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  filter: brightness(90%);
+}
+
+.master {
+  display: flex;
+  align-items: flex-end;
+  text-align: end;
+  justify-content: flex-end;
+}
+
+.titulo {
+  position: relative;
+  text-align: right;
+  font-size: 4em;
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.5em;
+}
+.titulo-descripcion {
+  text-align: right;
+  color: white !important;
+  text-shadow: black 0.1em 0.1em 0.5em;
+  font-size: 1.5em;
+}
+
+.botones {
+  padding-bottom: 2em;
+}
+
+.texto {
+  text-align: right;
+  color: white;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.head {
+  margin-top: 10%;
+}
+
+.fondo-honolulu {
+  background-image: url(images/honolulu.jpg);
+  background-size: cover;
+}
+
+.tamanio-imagen {
+  min-height: 25rem !important;
+}
+
+.fondo-color {
+  background-color: rgb(73, 71, 71);
+}
+
+.titulo-bsAs {
+  color: white;
+  padding: 5px;
+}
+
+.texto-titulo-bsAs {
+  color: white;
+  text-align: left;
+  padding: 5px;
+}
+
+.espacio {
+  padding: 15%;
+}
+
+.padder {
+  padding: 0% !important;
+}
+
+.color-footer {
+  background-color: #234a62 !important;
+  color: white;
+}
+
+.formularios {
+  align-items: center;
+}
+
+.subrayado {
+  border-bottom: 1px dotted #9999cc;
+  text-decoration: none;
+  color: black;
+}
